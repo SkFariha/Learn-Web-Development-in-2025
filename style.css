@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 0;
+}
+
+/* Card Container */
+.blog-post-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 360px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+/* Image */
+.post-img {
+  width: 100%;
+  display: block;
+  border-bottom: 4px solid #e0e0e0;
+}
+
+/* Content Section */
+.post-content {
+  padding: 20px;
+}
+
+/* Title */
+.post-title {
+  color: #2c3e50;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+/* Excerpt */
+.post-excerpt {
+  color: #555;
+  margin: 10px 0 20px;
+  line-height: 1.6;
+}
+
+/* Read More Button */
+.read-more {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #252729;
+  padding: 10px 16px;
+  margin: 10px 0;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+.read-more:hover {
+  background-color: #3498db;
+}
